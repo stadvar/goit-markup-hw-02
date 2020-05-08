@@ -1,0 +1,103 @@
+:root {
+  --active-color: #2196f3;
+  --main-color: #757575;
+  --head-collor: #212121;
+  --white-color: #ffffff;
+}
+/* #2196F3 */
+/* #212121 */
+/* #FFFFFF */
+/* #757575 */
+/* rgba(255, 255, 255, 0.6) */
+body {
+  background-color: #ffffff;
+  color: var(--main-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+.list {
+  list-style: none;
+}
+.logo {
+  color: var(--head-collor);
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.logo .web {
+  color: var(--active-color);
+}
+.logo .studio {
+  color: var(--white-color);
+}
+.site-nav .link {
+  color: var(--head-collor);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--active-color);
+}
+.site-nav .link.current {
+  border-bottom: 2px solid var(--active-color);
+  color: var(--active-color);
+}
+.header-contact .link {
+  color: var(--main-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.header-contact .link:hover,
+.header-contact .link:focus {
+  color: var(--active-color);
+}
+.footer {
+  background-color: #2f303a;
+}
+.footer > p {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-address address > p {
+  color: var(--white-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.footer-address address > a {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.footer-socials .title,
+.signup label {
+  color: var(--white-color);
+  text-transform: uppercase;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.footer-socials .link:hover,
+.footer-socials .link:focus {
+  background-color: var(--active-color);
+}
+.sign {
+  font-size: 12px;
+  line-height: 2;
+
+  text-align: center;
+
+  color: rgba(255, 255, 255, 0.4);
+}
